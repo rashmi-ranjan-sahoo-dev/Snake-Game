@@ -85,7 +85,7 @@ button:active{
 .btns{
     font-size: 30px;
     position: absolute;
-    bottom: 30px;
+    bottom: 0px;
     left: 110px;
     visibility: hidden;
 }
