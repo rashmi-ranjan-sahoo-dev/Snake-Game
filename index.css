@@ -85,8 +85,8 @@ button:active{
 .btns{
     font-size: 30px;
     position: absolute;
-    bottom: 30px;
-    left: 110px;
+    bottom: 10px;
+    left: 130px;
     visibility: hidden;
 }
 .up-btn{
@@ -102,12 +102,12 @@ button:active{
 .right-btn{
     margin: 5px;
 }
-@media (max-width: 800px) {
+@media (max-width: 300px) {
     .main .content{
         visibility: visible;
         position: absolute;
-        top: 20px;
-        right: 400px;
+        top: 50px;
+        left: 50px;
     }
     .board{
         /* background: linear-gradient(#dd831c,rgb(197, 27, 27));
@@ -138,10 +138,10 @@ button:active{
     }
     .game-sound{
         height: 10vh;
-        width: 33vw;
+        width: 50vw;
         font-size: 20px;
         position: absolute;
-        right: 30px;
+        right: 50px;
         top: 130px;
     }
     button{
@@ -153,11 +153,11 @@ button:active{
 }
 .score{
     height: 5vh;
-    width: 22vw;
+    width: 30vw;
     font-size: 20px;
     position: absolute;
     top: 230px;
-    left: 140px;
+    left: 170px;
    }
    .speed{
     font-size: 20px;
