@@ -141,7 +141,7 @@ button:active{
         width: 50vw;
         font-size: 20px;
         position: absolute;
-        right: 50px;
+        right: 0px;
         top: 130px;
     }
     button{
@@ -170,5 +170,9 @@ button:active{
   }
   .btns{
    visibility: visible;
+   font-size: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 110px;
   }
   }
