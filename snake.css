@@ -1,0 +1,173 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url(snake_image.jpg) ;
+    background-size:cover;
+    height: 100vh;
+    width: 100vw;
+ 
+}
+.main .content{
+    visibility: hidden;
+    position:absolute;
+    left: 32vh;
+    top: 4vh;
+    font-size: 7vw;
+    color: black;
+}
+
+.board{
+    background: linear-gradient(#dd831c,rgb(197, 27, 27));
+    width: 80vmin;
+    height: 80vmin;
+    position:absolute;
+    left: 26vh;
+    top: 10vh;
+    display: grid;
+    grid-template-rows: repeat(20,1fr);
+    grid-template-columns: repeat(20,1fr);
+}
+
+.head{
+    background-color:black;
+    border-radius: 10px;
+    border:2px solid white;
+}
+
+.snake{
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid black;
+}
+.food{
+    background-color: lightblue;
+    border-radius: 10px;
+    border:1px solid black;
+}
+.speed{
+    font-size: 40px;
+    position: absolute;
+    top: 320px;
+    right: 370px
+}
+i:active{
+  font-size: 30px;
+}
+.score{
+    font-size: 50px;
+    position: absolute;
+    top: 150px;
+    right: 400px;
+}
+.game-sound{
+    height: 10vh;
+    width: 20vw;
+    font-size: 30px;
+    position: absolute;
+    right: 250px;
+    top: 250px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+button:active{
+    font-size: 15px;
+}
+
+.btns{
+    font-size: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 110px;
+    visibility: hidden;
+}
+.up-btn{
+    margin-left: 30px;
+}
+
+.down-btn{
+    margin-left: 30px;
+}
+.left-btn{
+    margin: 5px;
+}
+.right-btn{
+    margin: 5px;
+}
+@media (max-width: 800px) {
+    .main .content{
+        visibility: visible;
+        position: absolute;
+        top: 20px;
+        right: 400px;
+    }
+    .board{
+        /* background: linear-gradient(#dd831c,rgb(197, 27, 27));
+        width: 80vmin;
+        height: 80vmin; */
+        position:absolute;
+        left: 5vh;
+        top: 39vh;
+        /* display: grid;
+        grid-template-rows: repeat(17,1fr);
+        grid-template-columns: repeat(17,1fr); */
+    }
+    .head{
+        background-color:black;
+        border-radius: 5px;
+        border:2px solid white;
+    }
+    
+    .snake{
+        background-color: white;
+        border-radius: 5px;
+        border:1px solid black;
+    }
+    .food{
+        background-color: lightblue;
+        border-radius: 5px;
+        border:1px solid black;
+    }
+    .game-sound{
+        height: 10vh;
+        width: 33vw;
+        font-size: 20px;
+        position: absolute;
+        right: 30px;
+        top: 130px;
+    }
+    button{
+    height: 30px;
+    width: 50px;
+    /* font-size: 20px; */
+    background-color: lightblue;
+    border-radius: 5px;
+}
+.score{
+    height: 5vh;
+    width: 22vw;
+    font-size: 20px;
+    position: absolute;
+    top: 230px;
+    left: 140px;
+   }
+   .speed{
+    font-size: 20px;
+    position: absolute;
+    top: 190px;
+    right: 40px
+}
+ i:active{
+    font-size: 20px;
+  }
+  .btns{
+   visibility: visible;
+  }
+  }
